@@ -1,0 +1,55 @@
+0,website,URL,https://uat-store.acer.com/en-ie/
+1,wait time,string,20
+2,Default page,Page Title,Welcome | Acer Store Ireland Official Site
+3,geo link,xpath,/html/body/div[5]/aside[1]/div[2]/div/div/div[1]/div/div[2]/a
+4,cookie allow,element ID,btn-cookie-allow
+5,account button,xpath,/html/body/div[4]/header/div/div[1]/div/div/div[2]/div[2]/ul/li[4]
+6,create account,xpath,/html/body/div[4]/header/div/div[1]/div/div/div[2]/div[2]/ul/li[4]/div/ul/li[2]/a
+7,account email,element ID,fld2c
+8,account firstname,element ID,fld3c
+9,account lastname,element ID,fld4c
+10,account password,element ID,fld5c
+11,account confirm password,element ID,fld6c
+12,account country,element ID,sfld1c
+13,account language,element ID,sfld2c
+14,account captcha,element ID,fld8c
+15,account email input,string,test4@acer.com
+16,account firstname input,string,Test
+17,account lastname input,string,Testing
+18,account password input,string,test12345
+19,account country input,string,Ireland
+20,account language input,string,English
+21,create account captcha,xpath,/html/body/div/form/div[1]/div[2]/div/div/div[11]/div/img
+22,create account button,element ID,button:ln5c
+23,create account welcome-page email input,element ID,fld10c
+24,create account welcome-page continue button,element ID,button:ln21
+25,search bar,element ID,search
+26,account sign-in,xpath,/html/body/div[4]/header/div/div[1]/div/div/div[2]/div[2]/ul/li[4]/div/ul/li[1]/a
+27,account email sign-in,element ID,fld3
+28,account password sign-in,element ID,fld4
+29,account sign-in button,element ID,button:ln8
+30,notification banner,xpath,/html/body/div[4]/main[2]/div[1]/div[2]/div/div/div
+31,geo popup flag image,xpath,/html/body/div[5]/aside[1]/div[2]/div/div/div[1]/div/div[2]/img
+32,country code,string,ie
+33,page language code,string,en
+34,page language,string,english
+35,product 1 sku,string,NX.C4KEK.004
+36,product 1 title,string,4 Years Carry-in | Monitor Predator
+37,search bar button,xpath,/html/body/div[4]/header/div/div[1]/div/div/div[2]/div[1]/div/div/form/button
+38,search result,xpath,/html/body/div[4]/main[2]/div[2]/div[1]/div[7]/div/div[2]/ol/li[1]/div/div[3]/div[1]/div[1]/div/span
+39,search product image,xpath,/html/body/div[4]/main[2]/div[2]/div[1]/div[7]/div/div[2]/ol/li[1]/div/div[2]/div[1]/ol/div/div/li[2]/span/span/a
+40,search product image,xpath,/html/body/div[4]/main[2]/div[2]/div[1]/div[7]/div/div[2]/ol/li[1]/div/div[2]/div[1]/ol/div/div/li[2]/span/span/a/img
+41,Acer logo image,xpath,/html/body/div[4]/header/div/div[1]/div/div/div[1]/div/a/img
+42,laptop category,element ID,ui-id-2
+43,laptop subcategory classic,xpath,/html/body/div[4]/header/div/div[2]/div/div/div/div/div/div/div[2]/nav/ul/li[1]/ul/li/div/div/div[2]/div[2]/ul/li[2]
+44,laptop subcategory page title,string,Classic - Laptops
+45,laptop subcategory page source,string,Classic
+46,product #NX.HEDEK.009,xpath,/html/body/div[4]/main[2]/div/div[1]/div[8]/div[2]/ol/li[5]/div/div[3]/div[1]/div[1]/h2
+47,product #NX.HEDEK.009 detail,string,Acer Aspire 3 Laptop | A315-55G | Black
+48,product #NX.HEDEK.009 detail,string,NX.HEDEK.009
+49,product #NX.HEDEK.009 detail,string,Windows 10 Home 64-bit
+50,product #NX.HEDEK.009 detail,string,Intel® Core™ i3-8145U processor Dual-core 2.10 GHz
+51,product #NX.HEDEK.009 detail,string,39.6 cm (15.6\") Full HD (1920 x 1080) 16:9
+52,product #NX.HEDEK.009 detail,string,8 GB, DDR4 SDRAM
+53,product #NX.HEDEK.009 detail,string,256 GB SSD
+54,product #NX.HEDEK.009 detail,string,NVIDIA GeForce MX230 with 2 GB dedicated memory
