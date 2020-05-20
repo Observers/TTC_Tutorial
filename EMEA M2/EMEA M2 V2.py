@@ -47,7 +47,19 @@ def get_captcha_text(location, size, adjust):
 
 
 class EMEAM2(unittest.TestCase):
+    # region testGeoPopup
+    def testGeoPopup(self):
+        self.assertIsInstance(self.geo_popup, object, "Geo Popup is not detected.")
+    # endregion
 
+    # region testGeoPopupFlag
+    def testGeoPopupFlag(self):
+        # Xpath of image
+        image_src = self.driver.find_element_by_xpath(self.input[31]).get_attribute("src")
+        temp = image_src.split("/")
+        # Get the last element of xpath to get the name of image
+        image = temp[len(temp) - 1]
+        self.assertTrue(self.input[32] in image, "Flag image not detected or wrong image name.")
 
 if __name__ == "__main__":
     unittest.main()
