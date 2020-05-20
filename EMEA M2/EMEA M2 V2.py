@@ -47,7 +47,16 @@ def get_captcha_text(location, size, adjust):
 
 
 class EMEAM2(unittest.TestCase):
+    def setUp(self):
+        self.input = read()
+        self.driver = webdriver.Firefox()
+        self.driver.get(self.input[0])
+        self.mainWindow = self.driver.window_handles[0]
+        assert self.input[2] in self.driver.title
 
+        # Geo link text: "enter the Acer Store (country)"
+        WebDriverWait(self.driver, int(self.input[1])).until(EC.element_to_be_clickable((By.XPATH, self.input[3])))
+        self.geo_popup = self.driver.find_element_by_xpath(self.input[3])
 
 if __name__ == "__main__":
     unittest.main()
